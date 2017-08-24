@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057FFBD179D9B390CE0936F9 /* libPods-CLS-inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */; };
+		4BAE88A51F4EAA6D0070FF36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88A41F4EAA6D0070FF36 /* main.m */; };
+		4BAE88AE1F4EAA6D0070FF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88AC1F4EAA6D0070FF36 /* Main.storyboard */; };
+		4BAE88B01F4EAA6D0070FF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88AF1F4EAA6D0070FF36 /* Assets.xcassets */; };
+		4BAE88B31F4EAA6D0070FF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88B11F4EAA6D0070FF36 /* LaunchScreen.storyboard */; };
+		4BAE88D81F4EACD10070FF36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88D21F4EACD10070FF36 /* AppDelegate.m */; };
+		4BAE88DE1F4EB9FB0070FF36 /* CLSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88DD1F4EB9FB0070FF36 /* CLSTabBarViewController.m */; };
+		4BAE88E11F4EBA1E0070FF36 /* CLSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88E01F4EBA1E0070FF36 /* CLSTabBar.m */; };
+		4BAE88E41F4EC46C0070FF36 /* CLSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88E31F4EC46C0070FF36 /* CLSBaseViewController.m */; };
+		4BAE88E81F4EC4980070FF36 /* CLSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88E61F4EC4980070FF36 /* CLSMainViewController.m */; };
+		4BAE88E91F4EC4980070FF36 /* CLSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88E71F4EC4980070FF36 /* CLSMainViewController.xib */; };
+		4BAE88ED1F4EC4B30070FF36 /* CLSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88EB1F4EC4B30070FF36 /* CLSMeViewController.m */; };
+		4BAE88EE1F4EC4B30070FF36 /* CLSMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88EC1F4EC4B30070FF36 /* CLSMeViewController.xib */; };
+		4BAE88F11F4EC5AC0070FF36 /* CLSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88F01F4EC5AC0070FF36 /* CLSBaseNavigationController.m */; };
+		4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88F31F4ED52A0070FF36 /* CLSLaunchViewController.m */; };
+		4BAE88F61F4ED52A0070FF36 /* CLSLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88F41F4ED52A0070FF36 /* CLSLaunchViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BAE88A01F4EAA6D0070FF36 /* CLS-inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CLS-inke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BAE88A41F4EAA6D0070FF36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BAE88AD1F4EAA6D0070FF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BAE88AF1F4EAA6D0070FF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BAE88B21F4EAA6D0070FF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BAE88B41F4EAA6D0070FF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BAE88D11F4EACD10070FF36 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BAE88D21F4EACD10070FF36 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BAE88DA1F4EAEDE0070FF36 /* yingke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yingke.pch; sourceTree = "<group>"; };
+		4BAE88DB1F4EB06D0070FF36 /* CLSMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSMacros.h; sourceTree = "<group>"; };
+		4BAE88DC1F4EB9FB0070FF36 /* CLSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSTabBarViewController.h; sourceTree = "<group>"; };
+		4BAE88DD1F4EB9FB0070FF36 /* CLSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSTabBarViewController.m; sourceTree = "<group>"; };
+		4BAE88DF1F4EBA1E0070FF36 /* CLSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSTabBar.h; sourceTree = "<group>"; };
+		4BAE88E01F4EBA1E0070FF36 /* CLSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSTabBar.m; sourceTree = "<group>"; };
+		4BAE88E21F4EC46C0070FF36 /* CLSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSBaseViewController.h; sourceTree = "<group>"; };
+		4BAE88E31F4EC46C0070FF36 /* CLSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSBaseViewController.m; sourceTree = "<group>"; };
+		4BAE88E51F4EC4980070FF36 /* CLSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSMainViewController.h; sourceTree = "<group>"; };
+		4BAE88E61F4EC4980070FF36 /* CLSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSMainViewController.m; sourceTree = "<group>"; };
+		4BAE88E71F4EC4980070FF36 /* CLSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSMainViewController.xib; sourceTree = "<group>"; };
+		4BAE88EA1F4EC4B30070FF36 /* CLSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSMeViewController.h; sourceTree = "<group>"; };
+		4BAE88EB1F4EC4B30070FF36 /* CLSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSMeViewController.m; sourceTree = "<group>"; };
+		4BAE88EC1F4EC4B30070FF36 /* CLSMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSMeViewController.xib; sourceTree = "<group>"; };
+		4BAE88EF1F4EC5AC0070FF36 /* CLSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSBaseNavigationController.h; sourceTree = "<group>"; };
+		4BAE88F01F4EC5AC0070FF36 /* CLSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSBaseNavigationController.m; sourceTree = "<group>"; };
+		4BAE88F21F4ED52A0070FF36 /* CLSLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLaunchViewController.h; sourceTree = "<group>"; };
+		4BAE88F31F4ED52A0070FF36 /* CLSLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLaunchViewController.m; sourceTree = "<group>"; };
+		4BAE88F41F4ED52A0070FF36 /* CLSLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSLaunchViewController.xib; sourceTree = "<group>"; };
+		7BEFE6F162C9C9EAA26070ED /* Pods-CLS-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.release.xcconfig"; sourceTree = "<group>"; };
+		89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLS-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7604D6A49FFC83CF8C90F72 /* Pods-CLS-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BAE889D1F4EAA6D0070FF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057FFBD179D9B390CE0936F9 /* libPods-CLS-inke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDC9ECEB1016DE06BC34AE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7604D6A49FFC83CF8C90F72 /* Pods-CLS-inke.debug.xcconfig */,
+				7BEFE6F162C9C9EAA26070ED /* Pods-CLS-inke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BAE88971F4EAA6D0070FF36 = {
+			isa = PBXGroup;
+			children = (
+				4BAE88A21F4EAA6D0070FF36 /* CLS-inke */,
+				4BAE88A11F4EAA6D0070FF36 /* Products */,
+				3EDC9ECEB1016DE06BC34AE7 /* Pods */,
+				FE3AFF4A222EA180846D151E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BAE88A11F4EAA6D0070FF36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88A01F4EAA6D0070FF36 /* CLS-inke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BAE88A21F4EAA6D0070FF36 /* CLS-inke */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88BA1F4EACD10070FF36 /* Class */,
+				4BAE88A31F4EAA6D0070FF36 /* Supporting Files */,
+			);
+			path = "CLS-inke";
+			sourceTree = "<group>";
+		};
+		4BAE88A31F4EAA6D0070FF36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88AC1F4EAA6D0070FF36 /* Main.storyboard */,
+				4BAE88AF1F4EAA6D0070FF36 /* Assets.xcassets */,
+				4BAE88B11F4EAA6D0070FF36 /* LaunchScreen.storyboard */,
+				4BAE88B41F4EAA6D0070FF36 /* Info.plist */,
+				4BAE88A41F4EAA6D0070FF36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BAE88BA1F4EACD10070FF36 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88BB1F4EACD10070FF36 /* Base */,
+				4BAE88BC1F4EACD10070FF36 /* Helper */,
+				4BAE88BF1F4EACD10070FF36 /* Launch */,
+				4BAE88C41F4EACD10070FF36 /* Lib */,
+				4BAE88C51F4EACD10070FF36 /* Live */,
+				4BAE88CA1F4EACD10070FF36 /* Me */,
+				4BAE88CF1F4EACD10070FF36 /* NetWork */,
+				4BAE88D01F4EACD10070FF36 /* Other */,
+				4BAE88D31F4EACD10070FF36 /* Show */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4BAE88BB1F4EACD10070FF36 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88DC1F4EB9FB0070FF36 /* CLSTabBarViewController.h */,
+				4BAE88DD1F4EB9FB0070FF36 /* CLSTabBarViewController.m */,
+				4BAE88DF1F4EBA1E0070FF36 /* CLSTabBar.h */,
+				4BAE88E01F4EBA1E0070FF36 /* CLSTabBar.m */,
+				4BAE88E21F4EC46C0070FF36 /* CLSBaseViewController.h */,
+				4BAE88E31F4EC46C0070FF36 /* CLSBaseViewController.m */,
+				4BAE88EF1F4EC5AC0070FF36 /* CLSBaseNavigationController.h */,
+				4BAE88F01F4EC5AC0070FF36 /* CLSBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4BAE88BC1F4EACD10070FF36 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88BD1F4EACD10070FF36 /* Category */,
+				4BAE88BE1F4EACD10070FF36 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4BAE88BD1F4EACD10070FF36 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4BAE88BE1F4EACD10070FF36 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4BAE88BF1F4EACD10070FF36 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88C01F4EACD10070FF36 /* Controller */,
+				4BAE88C11F4EACD10070FF36 /* Handler */,
+				4BAE88C21F4EACD10070FF36 /* Model */,
+				4BAE88C31F4EACD10070FF36 /* View */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		4BAE88C01F4EACD10070FF36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88F21F4ED52A0070FF36 /* CLSLaunchViewController.h */,
+				4BAE88F31F4ED52A0070FF36 /* CLSLaunchViewController.m */,
+				4BAE88F41F4ED52A0070FF36 /* CLSLaunchViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BAE88C11F4EACD10070FF36 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		4BAE88C21F4EACD10070FF36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BAE88C31F4EACD10070FF36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BAE88C41F4EACD10070FF36 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		4BAE88C51F4EACD10070FF36 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88C61F4EACD10070FF36 /* Controller */,
+				4BAE88C71F4EACD10070FF36 /* Handler */,
+				4BAE88C81F4EACD10070FF36 /* Model */,
+				4BAE88C91F4EACD10070FF36 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		4BAE88C61F4EACD10070FF36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BAE88C71F4EACD10070FF36 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		4BAE88C81F4EACD10070FF36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BAE88C91F4EACD10070FF36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BAE88CA1F4EACD10070FF36 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88CB1F4EACD10070FF36 /* Controller */,
+				4BAE88CC1F4EACD10070FF36 /* Handler */,
+				4BAE88CD1F4EACD10070FF36 /* Model */,
+				4BAE88CE1F4EACD10070FF36 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4BAE88CB1F4EACD10070FF36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BAE88CC1F4EACD10070FF36 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		4BAE88CD1F4EACD10070FF36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BAE88CE1F4EACD10070FF36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BAE88CF1F4EACD10070FF36 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		4BAE88D01F4EACD10070FF36 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88D11F4EACD10070FF36 /* AppDelegate.h */,
+				4BAE88D21F4EACD10070FF36 /* AppDelegate.m */,
+				4BAE88DA1F4EAEDE0070FF36 /* yingke.pch */,
+				4BAE88DB1F4EB06D0070FF36 /* CLSMacros.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4BAE88D31F4EACD10070FF36 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88D41F4EACD10070FF36 /* Controller */,
+				4BAE88D51F4EACD10070FF36 /* Handler */,
+				4BAE88D61F4EACD10070FF36 /* Model */,
+				4BAE88D71F4EACD10070FF36 /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		4BAE88D41F4EACD10070FF36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE88E51F4EC4980070FF36 /* CLSMainViewController.h */,
+				4BAE88E61F4EC4980070FF36 /* CLSMainViewController.m */,
+				4BAE88E71F4EC4980070FF36 /* CLSMainViewController.xib */,
+				4BAE88EA1F4EC4B30070FF36 /* CLSMeViewController.h */,
+				4BAE88EB1F4EC4B30070FF36 /* CLSMeViewController.m */,
+				4BAE88EC1F4EC4B30070FF36 /* CLSMeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BAE88D51F4EACD10070FF36 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		4BAE88D61F4EACD10070FF36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BAE88D71F4EACD10070FF36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE3AFF4A222EA180846D151E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BAE889F1F4EAA6D0070FF36 /* CLS-inke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BAE88B71F4EAA6D0070FF36 /* Build configuration list for PBXNativeTarget "CLS-inke" */;
+			buildPhases = (
+				71C841893B46E6B677ECC9F3 /* [CP] Check Pods Manifest.lock */,
+				4BAE889C1F4EAA6D0070FF36 /* Sources */,
+				4BAE889D1F4EAA6D0070FF36 /* Frameworks */,
+				4BAE889E1F4EAA6D0070FF36 /* Resources */,
+				FD9B29EABE7531E50AF66745 /* [CP] Embed Pods Frameworks */,
+				68D7138C38D4A50919EC957E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CLS-inke";
+			productName = "CLS-inke";
+			productReference = 4BAE88A01F4EAA6D0070FF36 /* CLS-inke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BAE88981F4EAA6D0070FF36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLS;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenlishuang;
+				TargetAttributes = {
+					4BAE889F1F4EAA6D0070FF36 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HW7TW2FYE8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4BAE889B1F4EAA6D0070FF36 /* Build configuration list for PBXProject "CLS-inke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BAE88971F4EAA6D0070FF36;
+			productRefGroup = 4BAE88A11F4EAA6D0070FF36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BAE889F1F4EAA6D0070FF36 /* CLS-inke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BAE889E1F4EAA6D0070FF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAE88E91F4EC4980070FF36 /* CLSMainViewController.xib in Resources */,
+				4BAE88B31F4EAA6D0070FF36 /* LaunchScreen.storyboard in Resources */,
+				4BAE88F61F4ED52A0070FF36 /* CLSLaunchViewController.xib in Resources */,
+				4BAE88B01F4EAA6D0070FF36 /* Assets.xcassets in Resources */,
+				4BAE88AE1F4EAA6D0070FF36 /* Main.storyboard in Resources */,
+				4BAE88EE1F4EC4B30070FF36 /* CLSMeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68D7138C38D4A50919EC957E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C841893B46E6B677ECC9F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLS-inke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9B29EABE7531E50AF66745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BAE889C1F4EAA6D0070FF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAE88E11F4EBA1E0070FF36 /* CLSTabBar.m in Sources */,
+				4BAE88F11F4EC5AC0070FF36 /* CLSBaseNavigationController.m in Sources */,
+				4BAE88DE1F4EB9FB0070FF36 /* CLSTabBarViewController.m in Sources */,
+				4BAE88D81F4EACD10070FF36 /* AppDelegate.m in Sources */,
+				4BAE88ED1F4EC4B30070FF36 /* CLSMeViewController.m in Sources */,
+				4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */,
+				4BAE88A51F4EAA6D0070FF36 /* main.m in Sources */,
+				4BAE88E81F4EC4980070FF36 /* CLSMainViewController.m in Sources */,
+				4BAE88E41F4EC46C0070FF36 /* CLSBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BAE88AC1F4EAA6D0070FF36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BAE88AD1F4EAA6D0070FF36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BAE88B11F4EAA6D0070FF36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BAE88B21F4EAA6D0070FF36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BAE88B51F4EAA6D0070FF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BAE88B61F4EAA6D0070FF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BAE88B81F4EAA6D0070FF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7604D6A49FFC83CF8C90F72 /* Pods-CLS-inke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HW7TW2FYE8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
+				INFOPLIST_FILE = "CLS-inke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CLS-inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BAE88B91F4EAA6D0070FF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEFE6F162C9C9EAA26070ED /* Pods-CLS-inke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HW7TW2FYE8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
+				INFOPLIST_FILE = "CLS-inke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.CLS-inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BAE889B1F4EAA6D0070FF36 /* Build configuration list for PBXProject "CLS-inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BAE88B51F4EAA6D0070FF36 /* Debug */,
+				4BAE88B61F4EAA6D0070FF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BAE88B71F4EAA6D0070FF36 /* Build configuration list for PBXNativeTarget "CLS-inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BAE88B81F4EAA6D0070FF36 /* Debug */,
+				4BAE88B91F4EAA6D0070FF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BAE88981F4EAA6D0070FF36 /* Project object */;
+}
