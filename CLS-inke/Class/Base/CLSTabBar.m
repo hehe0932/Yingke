@@ -57,10 +57,11 @@
         UIView *btn = self.subviews[i];
         if ([btn isKindOfClass:[UIButton class]]) {
             btn.frame = CGRectMake((btn.tag - LCSItemTypeLive) * width, 0, width, self.frame.size.height);
+//            btn.backgroundColor = RGB(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255));
         }
     }
     [self.cameraButton sizeToFit];
-    self.cameraButton.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height - 50);
+    self.cameraButton.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height - 40);
 }
 - (void)clickItem:(UIButton *)button{
     if ([self.delegate respondsToSelector:@selector(tabbar:clickButton:)]) {

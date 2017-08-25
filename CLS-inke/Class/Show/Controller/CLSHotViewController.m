@@ -1,25 +1,22 @@
 //
-//  CLSBaseNavigationController.m
+//  CLSHotViewController.m
 //  CLS-inke
 //
-//  Created by chenlishuang on 2017/8/24.
+//  Created by chenlishuang on 2017/8/25.
 //  Copyright © 2017年 chenlishuang. All rights reserved.
 //
 
-#import "CLSBaseNavigationController.h"
+#import "CLSHotViewController.h"
 
-@interface CLSBaseNavigationController ()
+@interface CLSHotViewController ()
 
 @end
 
-@implementation CLSBaseNavigationController
+@implementation CLSHotViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //设置nav的颜色
-    self.navigationBar.barTintColor = RGB(0, 216, 201);
-    //navBar的子控件颜色
-    self.navigationBar.tintColor = [UIColor whiteColor];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

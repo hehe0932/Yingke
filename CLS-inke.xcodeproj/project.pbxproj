@@ -23,6 +23,12 @@
 		4BAE88F11F4EC5AC0070FF36 /* CLSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88F01F4EC5AC0070FF36 /* CLSBaseNavigationController.m */; };
 		4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88F31F4ED52A0070FF36 /* CLSLaunchViewController.m */; };
 		4BAE88F61F4ED52A0070FF36 /* CLSLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88F41F4ED52A0070FF36 /* CLSLaunchViewController.xib */; };
+		4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */; };
+		4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */; };
+		4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */; };
+		4BBE7E421F4FC5B300C384B2 /* CLSHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE7E401F4FC5B300C384B2 /* CLSHotViewController.xib */; };
+		4BBE7E451F4FC5DE00C384B2 /* CLSNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */; };
+		4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +59,16 @@
 		4BAE88F21F4ED52A0070FF36 /* CLSLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLaunchViewController.h; sourceTree = "<group>"; };
 		4BAE88F31F4ED52A0070FF36 /* CLSLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLaunchViewController.m; sourceTree = "<group>"; };
 		4BAE88F41F4ED52A0070FF36 /* CLSLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSLaunchViewController.xib; sourceTree = "<group>"; };
+		4BBE7E391F4FC59A00C384B2 /* CLSFocuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSFocuseViewController.h; sourceTree = "<group>"; };
+		4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSFocuseViewController.m; sourceTree = "<group>"; };
+		4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSFocuseViewController.xib; sourceTree = "<group>"; };
+		4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSHotViewController.h; sourceTree = "<group>"; };
+		4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSHotViewController.m; sourceTree = "<group>"; };
+		4BBE7E401F4FC5B300C384B2 /* CLSHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSHotViewController.xib; sourceTree = "<group>"; };
+		4BBE7E431F4FC5DE00C384B2 /* CLSNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSNearViewController.h; sourceTree = "<group>"; };
+		4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSNearViewController.m; sourceTree = "<group>"; };
+		4BBE7E461F4FEE2A00C384B2 /* CLSMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSMainTopView.h; sourceTree = "<group>"; };
+		4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSMainTopView.m; sourceTree = "<group>"; };
 		7BEFE6F162C9C9EAA26070ED /* Pods-CLS-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.release.xcconfig"; sourceTree = "<group>"; };
 		89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLS-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7604D6A49FFC83CF8C90F72 /* Pods-CLS-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.debug.xcconfig"; sourceTree = "<group>"; };
@@ -334,6 +350,14 @@
 				4BAE88E51F4EC4980070FF36 /* CLSMainViewController.h */,
 				4BAE88E61F4EC4980070FF36 /* CLSMainViewController.m */,
 				4BAE88E71F4EC4980070FF36 /* CLSMainViewController.xib */,
+				4BBE7E391F4FC59A00C384B2 /* CLSFocuseViewController.h */,
+				4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */,
+				4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */,
+				4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */,
+				4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */,
+				4BBE7E401F4FC5B300C384B2 /* CLSHotViewController.xib */,
+				4BBE7E431F4FC5DE00C384B2 /* CLSNearViewController.h */,
+				4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */,
 				4BAE88EA1F4EC4B30070FF36 /* CLSMeViewController.h */,
 				4BAE88EB1F4EC4B30070FF36 /* CLSMeViewController.m */,
 				4BAE88EC1F4EC4B30070FF36 /* CLSMeViewController.xib */,
@@ -358,6 +382,8 @@
 		4BAE88D71F4EACD10070FF36 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4BBE7E461F4FEE2A00C384B2 /* CLSMainTopView.h */,
+				4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -437,6 +463,8 @@
 				4BAE88B31F4EAA6D0070FF36 /* LaunchScreen.storyboard in Resources */,
 				4BAE88F61F4ED52A0070FF36 /* CLSLaunchViewController.xib in Resources */,
 				4BAE88B01F4EAA6D0070FF36 /* Assets.xcassets in Resources */,
+				4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */,
+				4BBE7E421F4FC5B300C384B2 /* CLSHotViewController.xib in Resources */,
 				4BAE88AE1F4EAA6D0070FF36 /* Main.storyboard in Resources */,
 				4BAE88EE1F4EC4B30070FF36 /* CLSMeViewController.xib in Resources */,
 			);
@@ -506,11 +534,15 @@
 			files = (
 				4BAE88E11F4EBA1E0070FF36 /* CLSTabBar.m in Sources */,
 				4BAE88F11F4EC5AC0070FF36 /* CLSBaseNavigationController.m in Sources */,
+				4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */,
+				4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */,
+				4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */,
 				4BAE88DE1F4EB9FB0070FF36 /* CLSTabBarViewController.m in Sources */,
 				4BAE88D81F4EACD10070FF36 /* AppDelegate.m in Sources */,
 				4BAE88ED1F4EC4B30070FF36 /* CLSMeViewController.m in Sources */,
 				4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */,
 				4BAE88A51F4EAA6D0070FF36 /* main.m in Sources */,
+				4BBE7E451F4FC5DE00C384B2 /* CLSNearViewController.m in Sources */,
 				4BAE88E81F4EC4980070FF36 /* CLSMainViewController.m in Sources */,
 				4BAE88E41F4EC46C0070FF36 /* CLSBaseViewController.m in Sources */,
 			);
@@ -635,6 +667,7 @@
 			baseConfigurationReference = A7604D6A49FFC83CF8C90F72 /* Pods-CLS-inke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = HW7TW2FYE8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "CLS-inke/Info.plist";
@@ -649,6 +682,7 @@
 			baseConfigurationReference = 7BEFE6F162C9C9EAA26070ED /* Pods-CLS-inke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = HW7TW2FYE8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "CLS-inke/Info.plist";
