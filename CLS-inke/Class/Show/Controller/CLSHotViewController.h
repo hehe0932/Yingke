@@ -8,6 +8,6 @@
 
 #import "CLSBaseViewController.h"
 
-@interface CLSHotViewController : CLSBaseViewController
+@interface CLSHotViewController : UITableViewController
 
 @end

@@ -12,4 +12,5 @@ target 'CLS-inke' do
   pod 'Masonry'
   pod 'MJRefresh'
   pod 'YYKit'
+  pod 'MJExtension'
 end

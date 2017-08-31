@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		057FFBD179D9B390CE0936F9 /* libPods-CLS-inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */; };
+		4B94D3DA1F550A6200C26545 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3D91F550A6200C26545 /* HttpTool.m */; };
+		4B94D3DD1F550AA400C26545 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3DC1F550AA400C26545 /* UIImageView+SDWebImage.m */; };
+		4B94D3E01F55367700C26545 /* CLSBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3DF1F55367700C26545 /* CLSBaseHandler.m */; };
+		4B94D3E31F55376D00C26545 /* CLSLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3E21F55376D00C26545 /* CLSLiveHandler.m */; };
+		4B94D3E61F554A2200C26545 /* CLSLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3E51F554A2200C26545 /* CLSLive.m */; };
+		4B94D3E91F554A5400C26545 /* CLSCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3E81F554A5400C26545 /* CLSCreator.m */; };
+		4B94D3EC1F555C3700C26545 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3EB1F555C3700C26545 /* MJExtensionConfig.m */; };
 		4BAE88A51F4EAA6D0070FF36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88A41F4EAA6D0070FF36 /* main.m */; };
 		4BAE88AE1F4EAA6D0070FF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88AC1F4EAA6D0070FF36 /* Main.storyboard */; };
 		4BAE88B01F4EAA6D0070FF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88AF1F4EAA6D0070FF36 /* Assets.xcassets */; };
@@ -26,12 +33,43 @@
 		4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */; };
 		4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */; };
 		4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */; };
-		4BBE7E421F4FC5B300C384B2 /* CLSHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE7E401F4FC5B300C384B2 /* CLSHotViewController.xib */; };
 		4BBE7E451F4FC5DE00C384B2 /* CLSNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */; };
 		4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */; };
+		4BEF0C4D1F57DFD4001AB4AD /* CLSLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF0C4B1F57DFD4001AB4AD /* CLSLiveCell.m */; };
+		4BEF0C4E1F57DFD4001AB4AD /* CLSLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BEF0C4C1F57DFD4001AB4AD /* CLSLiveCell.xib */; };
+		4BEF0C521F5806FB001AB4AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C511F5806FB001AB4AD /* AVFoundation.framework */; };
+		4BEF0C581F580B4E001AB4AD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C571F580B4E001AB4AD /* AudioToolbox.framework */; };
+		4BEF0C5A1F580B59001AB4AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C591F580B59001AB4AD /* CoreGraphics.framework */; };
+		4BEF0C5C1F580B62001AB4AD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C5B1F580B62001AB4AD /* CoreMedia.framework */; };
+		4BEF0C5E1F580B6B001AB4AD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C5D1F580B6B001AB4AD /* CoreVideo.framework */; };
+		4BEF0C601F580B75001AB4AD /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C5F1F580B75001AB4AD /* libbz2.tbd */; };
+		4BEF0C621F580B7E001AB4AD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C611F580B7E001AB4AD /* libz.tbd */; };
+		4BEF0C641F580B87001AB4AD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C631F580B87001AB4AD /* MediaPlayer.framework */; };
+		4BEF0C661F580B93001AB4AD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C651F580B93001AB4AD /* MobileCoreServices.framework */; };
+		4BEF0C681F580B9D001AB4AD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C671F580B9D001AB4AD /* OpenGLES.framework */; };
+		4BEF0C6A1F580BA6001AB4AD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C691F580BA6001AB4AD /* QuartzCore.framework */; };
+		4BEF0C6C1F580BAE001AB4AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C6B1F580BAE001AB4AD /* UIKit.framework */; };
+		4BEF0C6E1F580BB8001AB4AD /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C6D1F580BB8001AB4AD /* VideoToolbox.framework */; };
+		4BEF0C731F580DA0001AB4AD /* CLSPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF0C721F580DA0001AB4AD /* CLSPlayerViewController.m */; };
+		4BEF0C781F581420001AB4AD /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C771F581420001AB4AD /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B94D3D51F55087800C26545 /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		4B94D3D81F550A6200C26545 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		4B94D3D91F550A6200C26545 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		4B94D3DB1F550AA400C26545 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		4B94D3DC1F550AA400C26545 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		4B94D3DE1F55367700C26545 /* CLSBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSBaseHandler.h; sourceTree = "<group>"; };
+		4B94D3DF1F55367700C26545 /* CLSBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSBaseHandler.m; sourceTree = "<group>"; };
+		4B94D3E11F55376D00C26545 /* CLSLiveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLiveHandler.h; sourceTree = "<group>"; };
+		4B94D3E21F55376D00C26545 /* CLSLiveHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLiveHandler.m; sourceTree = "<group>"; };
+		4B94D3E41F554A2200C26545 /* CLSLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLive.h; sourceTree = "<group>"; };
+		4B94D3E51F554A2200C26545 /* CLSLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLive.m; sourceTree = "<group>"; };
+		4B94D3E71F554A5400C26545 /* CLSCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCreator.h; sourceTree = "<group>"; };
+		4B94D3E81F554A5400C26545 /* CLSCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCreator.m; sourceTree = "<group>"; };
+		4B94D3EA1F555C3700C26545 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		4B94D3EB1F555C3700C26545 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
 		4BAE88A01F4EAA6D0070FF36 /* CLS-inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CLS-inke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAE88A41F4EAA6D0070FF36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BAE88AD1F4EAA6D0070FF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,11 +102,29 @@
 		4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSFocuseViewController.xib; sourceTree = "<group>"; };
 		4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSHotViewController.h; sourceTree = "<group>"; };
 		4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSHotViewController.m; sourceTree = "<group>"; };
-		4BBE7E401F4FC5B300C384B2 /* CLSHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSHotViewController.xib; sourceTree = "<group>"; };
 		4BBE7E431F4FC5DE00C384B2 /* CLSNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSNearViewController.h; sourceTree = "<group>"; };
 		4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSNearViewController.m; sourceTree = "<group>"; };
 		4BBE7E461F4FEE2A00C384B2 /* CLSMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSMainTopView.h; sourceTree = "<group>"; };
 		4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSMainTopView.m; sourceTree = "<group>"; };
+		4BEF0C4A1F57DFD4001AB4AD /* CLSLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLiveCell.h; sourceTree = "<group>"; };
+		4BEF0C4B1F57DFD4001AB4AD /* CLSLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLiveCell.m; sourceTree = "<group>"; };
+		4BEF0C4C1F57DFD4001AB4AD /* CLSLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSLiveCell.xib; sourceTree = "<group>"; };
+		4BEF0C511F5806FB001AB4AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4BEF0C571F580B4E001AB4AD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4BEF0C591F580B59001AB4AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BEF0C5B1F580B62001AB4AD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4BEF0C5D1F580B6B001AB4AD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4BEF0C5F1F580B75001AB4AD /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		4BEF0C611F580B7E001AB4AD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4BEF0C631F580B87001AB4AD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4BEF0C651F580B93001AB4AD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4BEF0C671F580B9D001AB4AD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4BEF0C691F580BA6001AB4AD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4BEF0C6B1F580BAE001AB4AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BEF0C6D1F580BB8001AB4AD /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		4BEF0C711F580DA0001AB4AD /* CLSPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSPlayerViewController.h; sourceTree = "<group>"; };
+		4BEF0C721F580DA0001AB4AD /* CLSPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSPlayerViewController.m; sourceTree = "<group>"; };
+		4BEF0C771F581420001AB4AD /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7BEFE6F162C9C9EAA26070ED /* Pods-CLS-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.release.xcconfig"; sourceTree = "<group>"; };
 		89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLS-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7604D6A49FFC83CF8C90F72 /* Pods-CLS-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +135,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEF0C6E1F580BB8001AB4AD /* VideoToolbox.framework in Frameworks */,
+				4BEF0C6C1F580BAE001AB4AD /* UIKit.framework in Frameworks */,
+				4BEF0C6A1F580BA6001AB4AD /* QuartzCore.framework in Frameworks */,
+				4BEF0C781F581420001AB4AD /* IJKMediaFramework.framework in Frameworks */,
+				4BEF0C681F580B9D001AB4AD /* OpenGLES.framework in Frameworks */,
+				4BEF0C661F580B93001AB4AD /* MobileCoreServices.framework in Frameworks */,
+				4BEF0C641F580B87001AB4AD /* MediaPlayer.framework in Frameworks */,
+				4BEF0C621F580B7E001AB4AD /* libz.tbd in Frameworks */,
+				4BEF0C601F580B75001AB4AD /* libbz2.tbd in Frameworks */,
+				4BEF0C5E1F580B6B001AB4AD /* CoreVideo.framework in Frameworks */,
+				4BEF0C5C1F580B62001AB4AD /* CoreMedia.framework in Frameworks */,
+				4BEF0C5A1F580B59001AB4AD /* CoreGraphics.framework in Frameworks */,
+				4BEF0C581F580B4E001AB4AD /* AudioToolbox.framework in Frameworks */,
+				4BEF0C521F5806FB001AB4AD /* AVFoundation.framework in Frameworks */,
 				057FFBD179D9B390CE0936F9 /* libPods-CLS-inke.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +231,8 @@
 				4BAE88E31F4EC46C0070FF36 /* CLSBaseViewController.m */,
 				4BAE88EF1F4EC5AC0070FF36 /* CLSBaseNavigationController.h */,
 				4BAE88F01F4EC5AC0070FF36 /* CLSBaseNavigationController.m */,
+				4B94D3DE1F55367700C26545 /* CLSBaseHandler.h */,
+				4B94D3DF1F55367700C26545 /* CLSBaseHandler.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -318,6 +390,11 @@
 		4BAE88CF1F4EACD10070FF36 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				4B94D3D51F55087800C26545 /* APIConfig.h */,
+				4B94D3D81F550A6200C26545 /* HttpTool.h */,
+				4B94D3D91F550A6200C26545 /* HttpTool.m */,
+				4B94D3DB1F550AA400C26545 /* UIImageView+SDWebImage.h */,
+				4B94D3DC1F550AA400C26545 /* UIImageView+SDWebImage.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -329,6 +406,8 @@
 				4BAE88D21F4EACD10070FF36 /* AppDelegate.m */,
 				4BAE88DA1F4EAEDE0070FF36 /* yingke.pch */,
 				4BAE88DB1F4EB06D0070FF36 /* CLSMacros.h */,
+				4B94D3EA1F555C3700C26545 /* MJExtensionConfig.h */,
+				4B94D3EB1F555C3700C26545 /* MJExtensionConfig.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -355,12 +434,13 @@
 				4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */,
 				4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */,
 				4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */,
-				4BBE7E401F4FC5B300C384B2 /* CLSHotViewController.xib */,
 				4BBE7E431F4FC5DE00C384B2 /* CLSNearViewController.h */,
 				4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */,
 				4BAE88EA1F4EC4B30070FF36 /* CLSMeViewController.h */,
 				4BAE88EB1F4EC4B30070FF36 /* CLSMeViewController.m */,
 				4BAE88EC1F4EC4B30070FF36 /* CLSMeViewController.xib */,
+				4BEF0C711F580DA0001AB4AD /* CLSPlayerViewController.h */,
+				4BEF0C721F580DA0001AB4AD /* CLSPlayerViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -368,6 +448,8 @@
 		4BAE88D51F4EACD10070FF36 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				4B94D3E11F55376D00C26545 /* CLSLiveHandler.h */,
+				4B94D3E21F55376D00C26545 /* CLSLiveHandler.m */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -375,6 +457,10 @@
 		4BAE88D61F4EACD10070FF36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4B94D3E41F554A2200C26545 /* CLSLive.h */,
+				4B94D3E51F554A2200C26545 /* CLSLive.m */,
+				4B94D3E71F554A5400C26545 /* CLSCreator.h */,
+				4B94D3E81F554A5400C26545 /* CLSCreator.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -384,6 +470,9 @@
 			children = (
 				4BBE7E461F4FEE2A00C384B2 /* CLSMainTopView.h */,
 				4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */,
+				4BEF0C4A1F57DFD4001AB4AD /* CLSLiveCell.h */,
+				4BEF0C4B1F57DFD4001AB4AD /* CLSLiveCell.m */,
+				4BEF0C4C1F57DFD4001AB4AD /* CLSLiveCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -391,6 +480,20 @@
 		FE3AFF4A222EA180846D151E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BEF0C771F581420001AB4AD /* IJKMediaFramework.framework */,
+				4BEF0C6D1F580BB8001AB4AD /* VideoToolbox.framework */,
+				4BEF0C6B1F580BAE001AB4AD /* UIKit.framework */,
+				4BEF0C691F580BA6001AB4AD /* QuartzCore.framework */,
+				4BEF0C671F580B9D001AB4AD /* OpenGLES.framework */,
+				4BEF0C651F580B93001AB4AD /* MobileCoreServices.framework */,
+				4BEF0C631F580B87001AB4AD /* MediaPlayer.framework */,
+				4BEF0C611F580B7E001AB4AD /* libz.tbd */,
+				4BEF0C5F1F580B75001AB4AD /* libbz2.tbd */,
+				4BEF0C5D1F580B6B001AB4AD /* CoreVideo.framework */,
+				4BEF0C5B1F580B62001AB4AD /* CoreMedia.framework */,
+				4BEF0C591F580B59001AB4AD /* CoreGraphics.framework */,
+				4BEF0C571F580B4E001AB4AD /* AudioToolbox.framework */,
+				4BEF0C511F5806FB001AB4AD /* AVFoundation.framework */,
 				89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */,
 			);
 			name = Frameworks;
@@ -463,8 +566,8 @@
 				4BAE88B31F4EAA6D0070FF36 /* LaunchScreen.storyboard in Resources */,
 				4BAE88F61F4ED52A0070FF36 /* CLSLaunchViewController.xib in Resources */,
 				4BAE88B01F4EAA6D0070FF36 /* Assets.xcassets in Resources */,
+				4BEF0C4E1F57DFD4001AB4AD /* CLSLiveCell.xib in Resources */,
 				4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */,
-				4BBE7E421F4FC5B300C384B2 /* CLSHotViewController.xib in Resources */,
 				4BAE88AE1F4EAA6D0070FF36 /* Main.storyboard in Resources */,
 				4BAE88EE1F4EC4B30070FF36 /* CLSMeViewController.xib in Resources */,
 			);
@@ -534,17 +637,26 @@
 			files = (
 				4BAE88E11F4EBA1E0070FF36 /* CLSTabBar.m in Sources */,
 				4BAE88F11F4EC5AC0070FF36 /* CLSBaseNavigationController.m in Sources */,
+				4B94D3E31F55376D00C26545 /* CLSLiveHandler.m in Sources */,
+				4BEF0C4D1F57DFD4001AB4AD /* CLSLiveCell.m in Sources */,
 				4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */,
 				4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */,
+				4BEF0C731F580DA0001AB4AD /* CLSPlayerViewController.m in Sources */,
+				4B94D3E91F554A5400C26545 /* CLSCreator.m in Sources */,
 				4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */,
+				4B94D3DD1F550AA400C26545 /* UIImageView+SDWebImage.m in Sources */,
+				4B94D3EC1F555C3700C26545 /* MJExtensionConfig.m in Sources */,
+				4B94D3E01F55367700C26545 /* CLSBaseHandler.m in Sources */,
 				4BAE88DE1F4EB9FB0070FF36 /* CLSTabBarViewController.m in Sources */,
 				4BAE88D81F4EACD10070FF36 /* AppDelegate.m in Sources */,
 				4BAE88ED1F4EC4B30070FF36 /* CLSMeViewController.m in Sources */,
 				4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */,
 				4BAE88A51F4EAA6D0070FF36 /* main.m in Sources */,
 				4BBE7E451F4FC5DE00C384B2 /* CLSNearViewController.m in Sources */,
+				4B94D3E61F554A2200C26545 /* CLSLive.m in Sources */,
 				4BAE88E81F4EC4980070FF36 /* CLSMainViewController.m in Sources */,
 				4BAE88E41F4EC46C0070FF36 /* CLSBaseViewController.m in Sources */,
+				4B94D3DA1F550A6200C26545 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,9 +781,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = HW7TW2FYE8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "CLS-inke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LIBTOOLFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.CLS-inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -684,9 +805,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = HW7TW2FYE8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "CLS-inke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LIBTOOLFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.CLS-inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
