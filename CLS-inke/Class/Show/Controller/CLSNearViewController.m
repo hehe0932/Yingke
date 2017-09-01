@@ -2,36 +2,59 @@
 //  CLSNearViewController.m
 //  CLS-inke
 //
-//  Created by chenlishuang on 2017/8/25.
+//  Created by chenlishuang on 2017/9/1.
 //  Copyright © 2017年 chenlishuang. All rights reserved.
 //
 
 #import "CLSNearViewController.h"
+#import "CLSLiveHandler.h"
+#import "CLSNearLiveCell.h"
 
-@interface CLSNearViewController ()
-
+static NSString *identifier = @"CLSNearLiveCell";
+@interface CLSNearViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+/** 数据源*/
+@property (nonatomic,strong)NSArray *dataList;
 @end
 
 @implementation CLSNearViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self initUI];
+    
+    [self loadData];
+    
+}
+- (void)initUI{
+    
+    self.collectionView.dataSource = self;
+    self.collectionView.delegate = self;
+    [self.collectionView registerNib:[UINib nibWithNibName:@"CLSNearLiveCell" bundle:nil] forCellWithReuseIdentifier:identifier];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadData{
+    
+    [CLSLiveHandler executeGetNearLiveTaskWithSuccess:^(id obj) {
+        
+        self.dataList = obj;
+        [self.collectionView reloadData];
+        
+    } failed:^(NSError *error) {
+        
+    }];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - 代理
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return self.dataList.count;
 }
-*/
 
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    CLSNearLiveCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    cell.live = self.dataList[indexPath.row];
+    
+    return cell;
+}
 @end

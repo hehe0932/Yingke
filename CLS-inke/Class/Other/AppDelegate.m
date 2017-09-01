@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CLSTabBarViewController.h"
+#import "CLSLocationManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,10 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     self.window = [[UIWindow alloc]init];
     CLSTabBarViewController *baseVC = [[CLSTabBarViewController alloc]init];
     self.window.rootViewController = baseVC;
     [self.window makeKeyAndVisible];
+    [[CLSLocationManager sharedManager]getGps:^(NSString *lat, NSString *lon) {
+        
+    }];
     return YES;
 }
 

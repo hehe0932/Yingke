@@ -18,4 +18,11 @@
  */
 + (void)executeGetHotLiveTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed;
 
+/**
+ 获取附近的直播
+
+ @param success success
+ @param failed failed
+ */
++ (void)executeGetNearLiveTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed;
 @end

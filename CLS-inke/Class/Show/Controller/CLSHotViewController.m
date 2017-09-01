@@ -38,7 +38,7 @@ static NSString *identifier = @"CLSLiveCell";
 }
 - (void)loadData{
     [CLSLiveHandler executeGetHotLiveTaskWithSuccess:^(id obj) {
-        NSLog(@"%@",obj);
+//        NSLog(@"%@",obj);
         [self.dataList addObjectsFromArray:obj];
         [self.tableView reloadData];
     } failed:^(NSError *error) {
@@ -72,7 +72,7 @@ static NSString *identifier = @"CLSLiveCell";
     
     CLSPlayerViewController *playerVC = [[CLSPlayerViewController alloc]init];
     playerVC.live = live;
-    
+//    playerVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:playerVC animated:YES];
     
     //系统自带的播放器播放不了直播内容

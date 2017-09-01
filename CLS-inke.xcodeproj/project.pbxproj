@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		057FFBD179D9B390CE0936F9 /* libPods-CLS-inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */; };
+		4B03157F1F5907B900B51DFF /* CLSLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B03157D1F5907B900B51DFF /* CLSLiveChatViewController.m */; };
+		4B0315801F5907B900B51DFF /* CLSLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B03157E1F5907B900B51DFF /* CLSLiveChatViewController.xib */; };
+		4B0315831F59366800B51DFF /* CLSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0315821F59366800B51DFF /* CLSLocationManager.m */; };
+		4B0315851F59376300B51DFF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0315841F59376300B51DFF /* CoreLocation.framework */; };
+		4B0315891F5954BF00B51DFF /* CLSNearLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0315871F5954BF00B51DFF /* CLSNearLiveCell.m */; };
+		4B03158A1F5954BF00B51DFF /* CLSNearLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0315881F5954BF00B51DFF /* CLSNearLiveCell.xib */; };
+		4B0315901F595E3600B51DFF /* CLSNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B03158E1F595E3600B51DFF /* CLSNearViewController.m */; };
+		4B0315911F595E3600B51DFF /* CLSNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B03158F1F595E3600B51DFF /* CLSNearViewController.xib */; };
 		4B94D3DA1F550A6200C26545 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3D91F550A6200C26545 /* HttpTool.m */; };
 		4B94D3DD1F550AA400C26545 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3DC1F550AA400C26545 /* UIImageView+SDWebImage.m */; };
 		4B94D3E01F55367700C26545 /* CLSBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B94D3DF1F55367700C26545 /* CLSBaseHandler.m */; };
@@ -33,7 +41,6 @@
 		4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */; };
 		4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */; };
 		4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */; };
-		4BBE7E451F4FC5DE00C384B2 /* CLSNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */; };
 		4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */; };
 		4BEF0C4D1F57DFD4001AB4AD /* CLSLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF0C4B1F57DFD4001AB4AD /* CLSLiveCell.m */; };
 		4BEF0C4E1F57DFD4001AB4AD /* CLSLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BEF0C4C1F57DFD4001AB4AD /* CLSLiveCell.xib */; };
@@ -55,6 +62,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B03157C1F5907B900B51DFF /* CLSLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLiveChatViewController.h; sourceTree = "<group>"; };
+		4B03157D1F5907B900B51DFF /* CLSLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLiveChatViewController.m; sourceTree = "<group>"; };
+		4B03157E1F5907B900B51DFF /* CLSLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSLiveChatViewController.xib; sourceTree = "<group>"; };
+		4B0315811F59366800B51DFF /* CLSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLocationManager.h; sourceTree = "<group>"; };
+		4B0315821F59366800B51DFF /* CLSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLocationManager.m; sourceTree = "<group>"; };
+		4B0315841F59376300B51DFF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4B0315861F5954BF00B51DFF /* CLSNearLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSNearLiveCell.h; sourceTree = "<group>"; };
+		4B0315871F5954BF00B51DFF /* CLSNearLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSNearLiveCell.m; sourceTree = "<group>"; };
+		4B0315881F5954BF00B51DFF /* CLSNearLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSNearLiveCell.xib; sourceTree = "<group>"; };
+		4B03158D1F595E3600B51DFF /* CLSNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSNearViewController.h; sourceTree = "<group>"; };
+		4B03158E1F595E3600B51DFF /* CLSNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSNearViewController.m; sourceTree = "<group>"; };
+		4B03158F1F595E3600B51DFF /* CLSNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSNearViewController.xib; sourceTree = "<group>"; };
 		4B94D3D51F55087800C26545 /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
 		4B94D3D81F550A6200C26545 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
 		4B94D3D91F550A6200C26545 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
@@ -102,8 +121,6 @@
 		4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSFocuseViewController.xib; sourceTree = "<group>"; };
 		4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSHotViewController.h; sourceTree = "<group>"; };
 		4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSHotViewController.m; sourceTree = "<group>"; };
-		4BBE7E431F4FC5DE00C384B2 /* CLSNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSNearViewController.h; sourceTree = "<group>"; };
-		4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSNearViewController.m; sourceTree = "<group>"; };
 		4BBE7E461F4FEE2A00C384B2 /* CLSMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSMainTopView.h; sourceTree = "<group>"; };
 		4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSMainTopView.m; sourceTree = "<group>"; };
 		4BEF0C4A1F57DFD4001AB4AD /* CLSLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLiveCell.h; sourceTree = "<group>"; };
@@ -135,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0315851F59376300B51DFF /* CoreLocation.framework in Frameworks */,
 				4BEF0C6E1F580BB8001AB4AD /* VideoToolbox.framework in Frameworks */,
 				4BEF0C6C1F580BAE001AB4AD /* UIKit.framework in Frameworks */,
 				4BEF0C6A1F580BA6001AB4AD /* QuartzCore.framework in Frameworks */,
@@ -256,6 +274,8 @@
 		4BAE88BE1F4EACD10070FF36 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				4B0315811F59366800B51DFF /* CLSLocationManager.h */,
+				4B0315821F59366800B51DFF /* CLSLocationManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -434,13 +454,17 @@
 				4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */,
 				4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */,
 				4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */,
-				4BBE7E431F4FC5DE00C384B2 /* CLSNearViewController.h */,
-				4BBE7E441F4FC5DE00C384B2 /* CLSNearViewController.m */,
+				4B03158D1F595E3600B51DFF /* CLSNearViewController.h */,
+				4B03158E1F595E3600B51DFF /* CLSNearViewController.m */,
+				4B03158F1F595E3600B51DFF /* CLSNearViewController.xib */,
 				4BAE88EA1F4EC4B30070FF36 /* CLSMeViewController.h */,
 				4BAE88EB1F4EC4B30070FF36 /* CLSMeViewController.m */,
 				4BAE88EC1F4EC4B30070FF36 /* CLSMeViewController.xib */,
 				4BEF0C711F580DA0001AB4AD /* CLSPlayerViewController.h */,
 				4BEF0C721F580DA0001AB4AD /* CLSPlayerViewController.m */,
+				4B03157C1F5907B900B51DFF /* CLSLiveChatViewController.h */,
+				4B03157D1F5907B900B51DFF /* CLSLiveChatViewController.m */,
+				4B03157E1F5907B900B51DFF /* CLSLiveChatViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -473,6 +497,9 @@
 				4BEF0C4A1F57DFD4001AB4AD /* CLSLiveCell.h */,
 				4BEF0C4B1F57DFD4001AB4AD /* CLSLiveCell.m */,
 				4BEF0C4C1F57DFD4001AB4AD /* CLSLiveCell.xib */,
+				4B0315861F5954BF00B51DFF /* CLSNearLiveCell.h */,
+				4B0315871F5954BF00B51DFF /* CLSNearLiveCell.m */,
+				4B0315881F5954BF00B51DFF /* CLSNearLiveCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -480,6 +507,7 @@
 		FE3AFF4A222EA180846D151E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B0315841F59376300B51DFF /* CoreLocation.framework */,
 				4BEF0C771F581420001AB4AD /* IJKMediaFramework.framework */,
 				4BEF0C6D1F580BB8001AB4AD /* VideoToolbox.framework */,
 				4BEF0C6B1F580BAE001AB4AD /* UIKit.framework */,
@@ -570,6 +598,9 @@
 				4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */,
 				4BAE88AE1F4EAA6D0070FF36 /* Main.storyboard in Resources */,
 				4BAE88EE1F4EC4B30070FF36 /* CLSMeViewController.xib in Resources */,
+				4B03158A1F5954BF00B51DFF /* CLSNearLiveCell.xib in Resources */,
+				4B0315801F5907B900B51DFF /* CLSLiveChatViewController.xib in Resources */,
+				4B0315911F595E3600B51DFF /* CLSNearViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,7 +671,9 @@
 				4B94D3E31F55376D00C26545 /* CLSLiveHandler.m in Sources */,
 				4BEF0C4D1F57DFD4001AB4AD /* CLSLiveCell.m in Sources */,
 				4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */,
+				4B0315891F5954BF00B51DFF /* CLSNearLiveCell.m in Sources */,
 				4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */,
+				4B0315901F595E3600B51DFF /* CLSNearViewController.m in Sources */,
 				4BEF0C731F580DA0001AB4AD /* CLSPlayerViewController.m in Sources */,
 				4B94D3E91F554A5400C26545 /* CLSCreator.m in Sources */,
 				4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */,
@@ -648,11 +681,12 @@
 				4B94D3EC1F555C3700C26545 /* MJExtensionConfig.m in Sources */,
 				4B94D3E01F55367700C26545 /* CLSBaseHandler.m in Sources */,
 				4BAE88DE1F4EB9FB0070FF36 /* CLSTabBarViewController.m in Sources */,
+				4B0315831F59366800B51DFF /* CLSLocationManager.m in Sources */,
+				4B03157F1F5907B900B51DFF /* CLSLiveChatViewController.m in Sources */,
 				4BAE88D81F4EACD10070FF36 /* AppDelegate.m in Sources */,
 				4BAE88ED1F4EC4B30070FF36 /* CLSMeViewController.m in Sources */,
 				4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */,
 				4BAE88A51F4EAA6D0070FF36 /* main.m in Sources */,
-				4BBE7E451F4FC5DE00C384B2 /* CLSNearViewController.m in Sources */,
 				4B94D3E61F554A2200C26545 /* CLSLive.m in Sources */,
 				4BAE88E81F4EC4980070FF36 /* CLSMainViewController.m in Sources */,
 				4BAE88E41F4EC46C0070FF36 /* CLSBaseViewController.m in Sources */,
