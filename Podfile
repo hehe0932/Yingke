@@ -13,4 +13,12 @@ target 'CLS-inke' do
   pod 'MJRefresh'
   pod 'YYKit'
   pod 'MJExtension'
+  pod 'LFLiveKit'
+  # 友盟
+  pod 'UMengUShare/UI'
+  pod 'UMengUShare/Social/WeChat'
+  pod 'UMengUShare/Social/QQ'
+  pod 'UMengUShare/Social/Sina'
+  pod 'UMengUShare/Social/SMS'
+
 end

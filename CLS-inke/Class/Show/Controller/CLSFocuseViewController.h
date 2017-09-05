@@ -8,6 +8,6 @@
 
 #import "CLSBaseViewController.h"
 
-@interface CLSFocuseViewController : CLSBaseViewController
+@interface CLSFocuseViewController : UITableViewController
 
 @end

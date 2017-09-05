@@ -33,10 +33,17 @@
 
 - (void)setLive:(CLSLive *)live{
     _live = live;
-    [self.headView downloadImage:live.creator.portrait placeholder:@"default_room"];
-    [self.bigImageView downloadImage:live.creator.portrait placeholder:@"default_room"];
     self.nameLabel.text = live.creator.nick;
     self.locationLabel.text = live.city;
     self.onlineLabel.text = [@(live.onlineUsers) stringValue];
+    if ([live.creator.portrait isEqualToString:@"shuang"]) {
+        self.headView.image = [UIImage imageNamed:live.creator.portrait];
+        self.bigImageView.image = [UIImage imageNamed:live.creator.portrait];
+
+    }else{
+        
+        [self.headView downloadImage:live.creator.portrait placeholder:@"default_room"];
+        [self.bigImageView downloadImage:live.creator.portrait placeholder:@"default_room"];
+    }
 }
 @end

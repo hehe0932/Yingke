@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "CLSTabBarViewController.h"
 #import "CLSLocationManager.h"
+#import "CLSAdvertiseView.h"
+#import "AppDelegate+CLSUMeng.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +19,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //初始化友盟
+    [self setupUMeng];
     
     self.window = [[UIWindow alloc]init];
     CLSTabBarViewController *baseVC = [[CLSTabBarViewController alloc]init];
@@ -26,6 +29,9 @@
     [[CLSLocationManager sharedManager]getGps:^(NSString *lat, NSString *lon) {
         
     }];
+    
+    CLSAdvertiseView * advertiseView = [CLSAdvertiseView loadAdvertiseView];
+    [self.window addSubview:advertiseView];
     return YES;
 }
 

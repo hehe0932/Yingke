@@ -7,9 +7,9 @@
 //
 
 #import "CLSLaunchViewController.h"
-
+#import "LFLivePreview.h"
 @interface CLSLaunchViewController ()
-
+@property (nonatomic,strong)LFLivePreview *preview;
 @end
 
 @implementation CLSLaunchViewController
@@ -23,7 +23,20 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)starLive:(id)sender {
+    UIView *backView = [[UIView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    backView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:backView];
+    
+    self.preview = [[LFLivePreview alloc] initWithFrame:self.view.bounds];
+    self.preview.vc = self;
+    [self.preview startLive];
+    [self.view addSubview:self.preview];
+    
+}
 - (IBAction)closeLaunch:(id)sender {
+    
+    [self.preview stopLive];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

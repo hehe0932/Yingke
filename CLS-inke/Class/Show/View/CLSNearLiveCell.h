@@ -11,4 +11,6 @@
 @interface CLSNearLiveCell : UICollectionViewCell
 
 @property (nonatomic,strong)CLSLive *live;
+
+- (void)showAnimation;
 @end

@@ -37,4 +37,6 @@
 @property (nonatomic, assign) NSInteger version;
 
 @property (nonatomic, copy) NSString * distance;
+
+@property (nonatomic, assign , getter=isShow)BOOL show;
 @end

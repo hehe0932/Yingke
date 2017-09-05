@@ -44,6 +44,12 @@ static NSString *identifier = @"CLSLiveCell";
     } failed:^(NSError *error) {
         
     }];
+    
+    [CLSLiveHandler executeGetAdvertiseTaskWithSuccess:^(id obj) {
+        NSLog(@"%@",obj);
+    } failed:^(NSError *error) {
+        
+    }];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

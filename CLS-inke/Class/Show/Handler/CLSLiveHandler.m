@@ -10,6 +10,7 @@
 #import "HttpTool.h"
 #import "CLSLive.h"
 #import "CLSLocationManager.h"
+#import "CLSAdvertise.h"
 @implementation CLSLiveHandler
 + (void)executeGetHotLiveTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed{
 
@@ -54,6 +55,23 @@
         
         failed(error);
         
+    }];
+}
+
+
++ (void)executeGetAdvertiseTaskWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed{
+    
+    [HttpTool getWithPath:API_Advertise params:nil success:^(id json) {
+        if ([json[@"dm_error"] integerValue]) {
+            failed(json[@"error_msg"]);
+        }else{
+            //如果返回信息正确
+            //数据解析
+            NSArray *ticker = [CLSAdvertise mj_objectArrayWithKeyValuesArray:json[@"ticker"]];
+            success(ticker);
+        }
+    } failure:^(NSError *error) {
+        failed(error);
     }];
 }
 @end

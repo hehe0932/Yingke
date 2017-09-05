@@ -9,9 +9,13 @@
 #import "CLSNearViewController.h"
 #import "CLSLiveHandler.h"
 #import "CLSNearLiveCell.h"
-
+#import "CLSPlayerViewController.h"
 static NSString *identifier = @"CLSNearLiveCell";
-@interface CLSNearViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
+
+#define kMargin  5
+#define kItemWidth  100
+
+@interface CLSNearViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 /** 数据源*/
 @property (nonatomic,strong)NSArray *dataList;
@@ -56,5 +60,33 @@ static NSString *identifier = @"CLSNearLiveCell";
     cell.live = self.dataList[indexPath.row];
     
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    [collectionView deselectItemAtIndexPath:indexPath animated:YES];
+    
+    CLSLive *live = self.dataList[indexPath.row];
+    
+    CLSPlayerViewController *playerVC = [[CLSPlayerViewController alloc]init];
+    playerVC.live = live;
+    //    playerVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:playerVC animated:YES];
+
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    NSInteger count = self.collectionView.width/kItemWidth;
+    CGFloat etraWidth = (self.collectionView.width - kMargin * (count + 1))/count;
+    
+    return CGSizeMake(etraWidth, etraWidth + 20);
+}
+//cell将要显示时调用
+- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    CLSNearLiveCell *c = (CLSNearLiveCell *)cell;
+    
+    [c showAnimation];
 }
 @end

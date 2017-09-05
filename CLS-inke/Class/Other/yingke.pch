@@ -16,4 +16,5 @@
 #import "APIConfig.h"
 #import <MJExtension.h>
 #import "UIImageView+SDWebImage.h"
+#import <SDWebImageManager.h>
 #endif /* yingke_pch */

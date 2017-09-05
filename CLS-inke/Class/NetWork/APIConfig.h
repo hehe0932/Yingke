@@ -24,12 +24,13 @@
 #define API_NearLive @"api/live/near_recommend"//near_flow_old
 //?uid=85149891&latitude=40.090562&longitude=116.413353
 
-//广告地址
-#define API_Advertise @"advertise/get"//ticker
+//轮播图
+#define API_Advertise1 @"/api/live/ticker"//ticker
 
-
-//欢哥直播地址
-#define Live_Dahuan @"rtmp://live.hkstv.hk.lxdns.com:1935/live/dahuan"
+//广告
+#define API_Advertise @"/api/live/ticker"//ticker
+//我的直播地址
+#define Live_Hehe @"rtmp://live.hkstv.hk.lxdns.com:1935/live/wojiuhehele"
 
 
 @end

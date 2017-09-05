@@ -39,9 +39,13 @@
 		4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE88F31F4ED52A0070FF36 /* CLSLaunchViewController.m */; };
 		4BAE88F61F4ED52A0070FF36 /* CLSLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE88F41F4ED52A0070FF36 /* CLSLaunchViewController.xib */; };
 		4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */; };
-		4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */; };
 		4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */; };
 		4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */; };
+		4BDAA5A01F5E4649003097AD /* CLSCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDAA59F1F5E4649003097AD /* CLSCacheHelper.m */; };
+		4BDAA5A31F5E837A003097AD /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDAA5A21F5E837A003097AD /* LFLivePreview.m */; };
+		4BDAA5A71F5E90DF003097AD /* CLSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDAA5A51F5E90DF003097AD /* CLSLoginViewController.m */; };
+		4BDAA5A81F5E90DF003097AD /* CLSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BDAA5A61F5E90DF003097AD /* CLSLoginViewController.xib */; };
+		4BDAA5AB1F5E9EA9003097AD /* AppDelegate+CLSUMeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDAA5AA1F5E9EA9003097AD /* AppDelegate+CLSUMeng.m */; };
 		4BEF0C4D1F57DFD4001AB4AD /* CLSLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF0C4B1F57DFD4001AB4AD /* CLSLiveCell.m */; };
 		4BEF0C4E1F57DFD4001AB4AD /* CLSLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BEF0C4C1F57DFD4001AB4AD /* CLSLiveCell.xib */; };
 		4BEF0C521F5806FB001AB4AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C511F5806FB001AB4AD /* AVFoundation.framework */; };
@@ -59,6 +63,9 @@
 		4BEF0C6E1F580BB8001AB4AD /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C6D1F580BB8001AB4AD /* VideoToolbox.framework */; };
 		4BEF0C731F580DA0001AB4AD /* CLSPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF0C721F580DA0001AB4AD /* CLSPlayerViewController.m */; };
 		4BEF0C781F581420001AB4AD /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEF0C771F581420001AB4AD /* IJKMediaFramework.framework */; };
+		4BF327451F5D44E9002B4EC5 /* CLSAdvertise.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF327441F5D44E9002B4EC5 /* CLSAdvertise.m */; };
+		4BF327481F5D468D002B4EC5 /* CLSAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF327471F5D468D002B4EC5 /* CLSAdvertiseView.m */; };
+		4BF3274A1F5D46A5002B4EC5 /* CLSAdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF327491F5D46A5002B4EC5 /* CLSAdvertiseView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,11 +125,19 @@
 		4BAE88F41F4ED52A0070FF36 /* CLSLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSLaunchViewController.xib; sourceTree = "<group>"; };
 		4BBE7E391F4FC59A00C384B2 /* CLSFocuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSFocuseViewController.h; sourceTree = "<group>"; };
 		4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSFocuseViewController.m; sourceTree = "<group>"; };
-		4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSFocuseViewController.xib; sourceTree = "<group>"; };
 		4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSHotViewController.h; sourceTree = "<group>"; };
 		4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSHotViewController.m; sourceTree = "<group>"; };
 		4BBE7E461F4FEE2A00C384B2 /* CLSMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSMainTopView.h; sourceTree = "<group>"; };
 		4BBE7E471F4FEE2A00C384B2 /* CLSMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSMainTopView.m; sourceTree = "<group>"; };
+		4BDAA59E1F5E4648003097AD /* CLSCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSCacheHelper.h; sourceTree = "<group>"; };
+		4BDAA59F1F5E4649003097AD /* CLSCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSCacheHelper.m; sourceTree = "<group>"; };
+		4BDAA5A11F5E837A003097AD /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		4BDAA5A21F5E837A003097AD /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		4BDAA5A41F5E90DF003097AD /* CLSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLoginViewController.h; sourceTree = "<group>"; };
+		4BDAA5A51F5E90DF003097AD /* CLSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLoginViewController.m; sourceTree = "<group>"; };
+		4BDAA5A61F5E90DF003097AD /* CLSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSLoginViewController.xib; sourceTree = "<group>"; };
+		4BDAA5A91F5E9EA9003097AD /* AppDelegate+CLSUMeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+CLSUMeng.h"; sourceTree = "<group>"; };
+		4BDAA5AA1F5E9EA9003097AD /* AppDelegate+CLSUMeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+CLSUMeng.m"; sourceTree = "<group>"; };
 		4BEF0C4A1F57DFD4001AB4AD /* CLSLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSLiveCell.h; sourceTree = "<group>"; };
 		4BEF0C4B1F57DFD4001AB4AD /* CLSLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSLiveCell.m; sourceTree = "<group>"; };
 		4BEF0C4C1F57DFD4001AB4AD /* CLSLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSLiveCell.xib; sourceTree = "<group>"; };
@@ -142,6 +157,11 @@
 		4BEF0C711F580DA0001AB4AD /* CLSPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSPlayerViewController.h; sourceTree = "<group>"; };
 		4BEF0C721F580DA0001AB4AD /* CLSPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSPlayerViewController.m; sourceTree = "<group>"; };
 		4BEF0C771F581420001AB4AD /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		4BF327431F5D44E9002B4EC5 /* CLSAdvertise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSAdvertise.h; sourceTree = "<group>"; };
+		4BF327441F5D44E9002B4EC5 /* CLSAdvertise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSAdvertise.m; sourceTree = "<group>"; };
+		4BF327461F5D468D002B4EC5 /* CLSAdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSAdvertiseView.h; sourceTree = "<group>"; };
+		4BF327471F5D468D002B4EC5 /* CLSAdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSAdvertiseView.m; sourceTree = "<group>"; };
+		4BF327491F5D46A5002B4EC5 /* CLSAdvertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSAdvertiseView.xib; sourceTree = "<group>"; };
 		7BEFE6F162C9C9EAA26070ED /* Pods-CLS-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.release.xcconfig"; sourceTree = "<group>"; };
 		89E850B18AE2333ADFEE778E /* libPods-CLS-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLS-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7604D6A49FFC83CF8C90F72 /* Pods-CLS-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLS-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke.debug.xcconfig"; sourceTree = "<group>"; };
@@ -276,6 +296,8 @@
 			children = (
 				4B0315811F59366800B51DFF /* CLSLocationManager.h */,
 				4B0315821F59366800B51DFF /* CLSLocationManager.m */,
+				4BDAA59E1F5E4648003097AD /* CLSCacheHelper.h */,
+				4BDAA59F1F5E4649003097AD /* CLSCacheHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -364,6 +386,8 @@
 		4BAE88C91F4EACD10070FF36 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4BDAA5A11F5E837A003097AD /* LFLivePreview.h */,
+				4BDAA5A21F5E837A003097AD /* LFLivePreview.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -382,6 +406,9 @@
 		4BAE88CB1F4EACD10070FF36 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4BDAA5A41F5E90DF003097AD /* CLSLoginViewController.h */,
+				4BDAA5A51F5E90DF003097AD /* CLSLoginViewController.m */,
+				4BDAA5A61F5E90DF003097AD /* CLSLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -424,6 +451,8 @@
 			children = (
 				4BAE88D11F4EACD10070FF36 /* AppDelegate.h */,
 				4BAE88D21F4EACD10070FF36 /* AppDelegate.m */,
+				4BDAA5A91F5E9EA9003097AD /* AppDelegate+CLSUMeng.h */,
+				4BDAA5AA1F5E9EA9003097AD /* AppDelegate+CLSUMeng.m */,
 				4BAE88DA1F4EAEDE0070FF36 /* yingke.pch */,
 				4BAE88DB1F4EB06D0070FF36 /* CLSMacros.h */,
 				4B94D3EA1F555C3700C26545 /* MJExtensionConfig.h */,
@@ -451,7 +480,6 @@
 				4BAE88E71F4EC4980070FF36 /* CLSMainViewController.xib */,
 				4BBE7E391F4FC59A00C384B2 /* CLSFocuseViewController.h */,
 				4BBE7E3A1F4FC59A00C384B2 /* CLSFocuseViewController.m */,
-				4BBE7E3B1F4FC59A00C384B2 /* CLSFocuseViewController.xib */,
 				4BBE7E3E1F4FC5B300C384B2 /* CLSHotViewController.h */,
 				4BBE7E3F1F4FC5B300C384B2 /* CLSHotViewController.m */,
 				4B03158D1F595E3600B51DFF /* CLSNearViewController.h */,
@@ -485,6 +513,8 @@
 				4B94D3E51F554A2200C26545 /* CLSLive.m */,
 				4B94D3E71F554A5400C26545 /* CLSCreator.h */,
 				4B94D3E81F554A5400C26545 /* CLSCreator.m */,
+				4BF327431F5D44E9002B4EC5 /* CLSAdvertise.h */,
+				4BF327441F5D44E9002B4EC5 /* CLSAdvertise.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -500,6 +530,9 @@
 				4B0315861F5954BF00B51DFF /* CLSNearLiveCell.h */,
 				4B0315871F5954BF00B51DFF /* CLSNearLiveCell.m */,
 				4B0315881F5954BF00B51DFF /* CLSNearLiveCell.xib */,
+				4BF327461F5D468D002B4EC5 /* CLSAdvertiseView.h */,
+				4BF327471F5D468D002B4EC5 /* CLSAdvertiseView.m */,
+				4BF327491F5D46A5002B4EC5 /* CLSAdvertiseView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -595,10 +628,11 @@
 				4BAE88F61F4ED52A0070FF36 /* CLSLaunchViewController.xib in Resources */,
 				4BAE88B01F4EAA6D0070FF36 /* Assets.xcassets in Resources */,
 				4BEF0C4E1F57DFD4001AB4AD /* CLSLiveCell.xib in Resources */,
-				4BBE7E3D1F4FC59A00C384B2 /* CLSFocuseViewController.xib in Resources */,
+				4BF3274A1F5D46A5002B4EC5 /* CLSAdvertiseView.xib in Resources */,
 				4BAE88AE1F4EAA6D0070FF36 /* Main.storyboard in Resources */,
 				4BAE88EE1F4EC4B30070FF36 /* CLSMeViewController.xib in Resources */,
 				4B03158A1F5954BF00B51DFF /* CLSNearLiveCell.xib in Resources */,
+				4BDAA5A81F5E90DF003097AD /* CLSLoginViewController.xib in Resources */,
 				4B0315801F5907B900B51DFF /* CLSLiveChatViewController.xib in Resources */,
 				4B0315911F595E3600B51DFF /* CLSNearViewController.xib in Resources */,
 			);
@@ -616,6 +650,10 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-CLS-inke/Pods-CLS-inke-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -670,22 +708,28 @@
 				4BAE88F11F4EC5AC0070FF36 /* CLSBaseNavigationController.m in Sources */,
 				4B94D3E31F55376D00C26545 /* CLSLiveHandler.m in Sources */,
 				4BEF0C4D1F57DFD4001AB4AD /* CLSLiveCell.m in Sources */,
+				4BF327451F5D44E9002B4EC5 /* CLSAdvertise.m in Sources */,
 				4BBE7E481F4FEE2A00C384B2 /* CLSMainTopView.m in Sources */,
 				4B0315891F5954BF00B51DFF /* CLSNearLiveCell.m in Sources */,
 				4BBE7E411F4FC5B300C384B2 /* CLSHotViewController.m in Sources */,
 				4B0315901F595E3600B51DFF /* CLSNearViewController.m in Sources */,
+				4BDAA5A01F5E4649003097AD /* CLSCacheHelper.m in Sources */,
 				4BEF0C731F580DA0001AB4AD /* CLSPlayerViewController.m in Sources */,
 				4B94D3E91F554A5400C26545 /* CLSCreator.m in Sources */,
 				4BBE7E3C1F4FC59A00C384B2 /* CLSFocuseViewController.m in Sources */,
+				4BF327481F5D468D002B4EC5 /* CLSAdvertiseView.m in Sources */,
 				4B94D3DD1F550AA400C26545 /* UIImageView+SDWebImage.m in Sources */,
 				4B94D3EC1F555C3700C26545 /* MJExtensionConfig.m in Sources */,
+				4BDAA5AB1F5E9EA9003097AD /* AppDelegate+CLSUMeng.m in Sources */,
 				4B94D3E01F55367700C26545 /* CLSBaseHandler.m in Sources */,
+				4BDAA5A71F5E90DF003097AD /* CLSLoginViewController.m in Sources */,
 				4BAE88DE1F4EB9FB0070FF36 /* CLSTabBarViewController.m in Sources */,
 				4B0315831F59366800B51DFF /* CLSLocationManager.m in Sources */,
 				4B03157F1F5907B900B51DFF /* CLSLiveChatViewController.m in Sources */,
 				4BAE88D81F4EACD10070FF36 /* AppDelegate.m in Sources */,
 				4BAE88ED1F4EC4B30070FF36 /* CLSMeViewController.m in Sources */,
 				4BAE88F51F4ED52A0070FF36 /* CLSLaunchViewController.m in Sources */,
+				4BDAA5A31F5E837A003097AD /* LFLivePreview.m in Sources */,
 				4BAE88A51F4EAA6D0070FF36 /* main.m in Sources */,
 				4B94D3E61F554A2200C26545 /* CLSLive.m in Sources */,
 				4BAE88E81F4EC4980070FF36 /* CLSMainViewController.m in Sources */,
@@ -821,6 +865,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "CLS-inke/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -845,6 +890,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CLS-inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = "CLS-inke/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
