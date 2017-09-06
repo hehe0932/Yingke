@@ -23,9 +23,9 @@
     //初始化友盟
     [self setupUMeng];
     
-    self.window = [[UIWindow alloc]init];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     CLSTabBarViewController *baseVC = [[CLSTabBarViewController alloc]init];
-//    CLSLoginViewController *loginVC = [[CLSLoginViewController alloc]init];
+    CLSLoginViewController *loginVC = [[CLSLoginViewController alloc]init];
 //    self.window.rootViewController = loginVC;
     self.window.rootViewController = baseVC;
     [self.window makeKeyAndVisible];
