@@ -11,6 +11,7 @@
 #import "CLSLocationManager.h"
 #import "CLSAdvertiseView.h"
 #import "AppDelegate+CLSUMeng.h"
+#import "CLSLoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -24,6 +25,8 @@
     
     self.window = [[UIWindow alloc]init];
     CLSTabBarViewController *baseVC = [[CLSTabBarViewController alloc]init];
+//    CLSLoginViewController *loginVC = [[CLSLoginViewController alloc]init];
+//    self.window.rootViewController = loginVC;
     self.window.rootViewController = baseVC;
     [self.window makeKeyAndVisible];
     [[CLSLocationManager sharedManager]getGps:^(NSString *lat, NSString *lon) {

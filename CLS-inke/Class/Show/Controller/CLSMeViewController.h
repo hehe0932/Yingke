@@ -8,6 +8,6 @@
 
 #import "CLSBaseViewController.h"
 
-@interface CLSMeViewController : CLSBaseViewController
+@interface CLSMeViewController : UITableViewController
 
 @end

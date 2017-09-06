@@ -101,7 +101,7 @@ static NSInteger showTime = 3;
     [UIView animateWithDuration:.5 animations:^{
         self.alpha = 0;
     } completion:^(BOOL finished) {
-        self.hidden = YES;
+        [self removeFromSuperview];
     }];
 }
 @end
